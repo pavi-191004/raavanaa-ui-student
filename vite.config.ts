@@ -9,7 +9,7 @@ export default defineConfig({
             name: 'ui-student',
             filename: 'remoteEntry.js',
             exposes: {
-                './App': './src/App.tcx',
+                './App': './src/App.tsx',
             },
             shared: ['react','react-dom']
         })
